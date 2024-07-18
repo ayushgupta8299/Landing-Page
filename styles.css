@@ -1,0 +1,150 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#hero {
+    background: url(anastase-maragos-9dzWZQWZMdE-unsplash.jpg) no-repeat center center/cover;
+    width: 150%;
+    color: #fff;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+#hero .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#hero .btn:hover {
+    background-color: #0056b3;
+}
+#about {
+    background-color: #AAD7D9 ;/* Change background color */
+    color: #333; /* Change text color */
+    padding: 60px 30px; /* Adjust padding as needed */
+    text-align: center; /* Adjust text alignment */
+}
+
+section {
+    background-color: #4b83ab;
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#services .service-box {
+    background-color: #405D72;
+    display: inline-block;
+    width: 30%;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+   
+#contact {
+    background-color: #ACB1D6;
+    color: #333;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
